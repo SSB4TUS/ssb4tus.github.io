@@ -1,0 +1,22 @@
+[id*="que"] {
+	padding: 1em 2em 1em 40px;
+	border-top-left-radius: 0.4em;
+	border-top-right-radius: 0.4em;
+	background: #ddd url(../imgs/q.png) no-repeat left top;
+}
+
+#ans {
+	padding: 1em 2em 1em 40px;
+	border-bottom-left-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
+	margin-bottom: 2em;
+	border-top: #555 1px dashed;
+	background: #ddd url(../imgs/a.png) no-repeat left top;
+}
+
+@media screen and (max-width: 700px) {
+	#que01, #que02, #que03, #que04, #que05, #que06, #que07, #que08, #ans{
+		padding-right: 1em;
+	}
+
+}

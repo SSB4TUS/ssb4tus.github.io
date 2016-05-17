@@ -1,0 +1,28 @@
+table {
+	margin: 3em 0;
+}
+tr {
+	border-bottom: solid 1px #d6ac98;
+}
+tr:first-child {
+	border-top: solid 1px #d6ac98;
+}
+
+td {
+	padding: 2em 3em;
+}
+td:first-child {
+	text-align: center;
+	border-right: dashed 1px #f2e3da;
+	min-width: 10em;
+}
+
+@media screen and (max-width: 700px) {
+	td {
+		padding: 4% 6%;
+	}
+	td:first-child {
+		min-width: 6em;
+		padding: 4% 2%;
+	}
+}

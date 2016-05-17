@@ -1,0 +1,226 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	color: #50372c;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Lato', Calibri, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.5em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: #ed8151;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #e86a32;
+	outline: none;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.codrops-header,
+.codrops-top {
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+.codrops-header {
+	margin: 0 auto;
+	padding: 0 25px;
+	height: 235px;
+	width: 960px;
+	overflow: hidden;
+	position: relative;
+}
+
+.headerleft { float: left; }
+.headerright {
+	float: left;
+	margin-left: 100px;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 0.69em;
+	line-height: 2.2;
+	font-weight: 700;
+	background: rgba(255,255,255,0.3);
+}
+
+.codrops-top a {
+	display: inline-block;
+	padding: 0 1em;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.4);
+	color: #333;
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	display: block;
+	float: left;
+}
+
+.codrops-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'codropsicons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.column {
+	float: left;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: left;
+	background: rgba(250, 250, 250, 0.5);
+	padding: 1em 2.2em 0;
+}
+
+.column p {
+	font-weight: 300;
+	font-size: 2em;
+	padding: 0 0 0.5em;
+	margin: 0;
+	line-height: 1.5;
+}
+
+button {
+	border: none;
+	padding: 0.6em 1.2em;
+	background: #a9a9a9;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 10px;
+	border-radius: 2px;
+	font-weight: 400;
+	outline: none;
+	font-size: 20px;
+	background: #ff7760;
+}
+.headerright button {
+	margin-top: 80px;
+}
+
+/*
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	min-width: 100%;
+	border-top: 1px solid #ffde93;
+	color: #ffde93;
+	text-align: center;
+	font-size: 12px;
+}*/
+
+button:hover,
+button:active {
+	background: #ffc1b7;
+}
+
+@media screen and (max-width: 700px) {
+
+	body {
+		font-size: 12px;
+	}
+
+	.codrops-header {
+		width: 100%;
+		overflow: hidden;
+		height: auto;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+
+	.headerleft img {
+		width: 100%;
+	}
+
+	.headerright {
+		margin-left: 50%;
+	}
+
+	.headerright button {
+		font-size: 14px;
+		position: relative;
+		left: -50%;
+		margin-top: 0;
+	}
+
+	.codrops-top {
+		font-size: 120%;
+	}
+
+	.codrops-icon span {
+		display: none;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.column {
+		padding: 0 15px;
+	}
+
+}
