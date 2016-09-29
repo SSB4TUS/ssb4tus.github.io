@@ -56,3 +56,40 @@
 .ui-content {
   background: url(http://ssb4tus.github.io/assets/imgs/symphony.png) !important;
 }
+
+.register-button {
+  position: relative;
+  z-index: 2;
+  background-color: #333;
+  border: 2px solid #333;
+  color: #fff;
+  line-height: 50px;
+}
+
+.register-button:hover {
+  background-color: #fff;
+  border-color: #59b1eb;
+  color: #59b1eb;
+}
+
+.register-button::before,
+.register-button::after {
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #333;
+}
+
+.register-button::before {
+  top: 0;
+}
+
+.register-button::after {
+  bottom: 0;
+}
+
+.register-button:hover::before,
+.register-button:hover::after {
+  height: 0;
+  background-color: #59b1eb;
+}
