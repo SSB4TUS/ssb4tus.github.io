@@ -58,16 +58,12 @@
 }
 
 .register-button {
-  background-color: #333;
-  border: 2px solid #333;
-  color: #fff;
-  line-height: 50px;
-  font-size: 22px;
-  padding: 5px 20px;
+  background: url(http://ssb4tus.github.io/assets/imgs/kokucheese_button.png);
+  width: 650px;
+  height: 100px;
+  background-size: contain;
 }
 
 .register-button:hover {
-  background-color: #fff;
-  border-color: #59b1eb;
-  color: #59b1eb;
+  background: url(http://ssb4tus.github.io/assets/imgs/kokucheese_button_hover.png);
 }
