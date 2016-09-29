@@ -59,11 +59,12 @@
 
 .register-button {
   background: url(http://ssb4tus.github.io/assets/imgs/kokucheese_button.png);
-  width: 650px;
-  height: 100px;
+  width: 433px;
+  height: 66px;
+  border:none;
   background-size: contain;
 }
 
 .register-button:hover {
-  background: url(http://ssb4tus.github.io/assets/imgs/kokucheese_button_hover.png);
+  background-image: url(http://ssb4tus.github.io/assets/imgs/kokucheese_button_hover.png);
 }
