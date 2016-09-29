@@ -8,8 +8,8 @@ var targets = [
 ];
 var $removeTarget = $(targets.join());
 
-var registerButtonPC = '<a href="https://ssl.kokucheese.com/event/entry/429832/"><input type="button" class="register-button" value="今すぐ理科ブラ6に参加登録する！"></a>';
-var registerButtonSP = '<a href="https://ssl.kokucheese.com/s/event/entry/429832/"><input type="button" value="今すぐ理科ブラ6に参加登録する！"></a>'
+var registerButtonPC = '<a href="https://ssl.kokucheese.com/event/entry/429832/"><div class="register-button"></div></a>';
+var registerButtonSP = '<a href="https://ssl.kokucheese.com/s/event/entry/429832/"><div class="register-button"></div></a>'
 
 function jQueryMain() {
   $removeTarget.remove();

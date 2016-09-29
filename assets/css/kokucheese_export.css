@@ -62,6 +62,7 @@
   width: 433px;
   height: 66px;
   border:none;
+  cursor: pointer;
   background-size: contain;
 }
 
