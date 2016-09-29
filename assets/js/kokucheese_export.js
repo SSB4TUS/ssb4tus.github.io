@@ -9,12 +9,11 @@ var targets = [
 var $removeTarget = $(targets.join());
 
 var registerButtonPC = '<a href="https://ssl.kokucheese.com/event/entry/429832/"><input type="button" class="register-button" value="今すぐ理科ブラ6に参加登録する！"></a>';
-var registerButtonSP = '<a href="https://ssl.kokucheese.com/event/entry/429832/"><input type="button" value="今すぐ理科ブラ6に参加登録する！"></a>'
+var registerButtonSP = '<a href="https://ssl.kokucheese.com/s/event/entry/429832/"><input type="button" value="今すぐ理科ブラ6に参加登録する！"></a>'
 
 function jQueryMain() {
   $removeTarget.remove();
-  var isSP = false;
-  // !!location.href.match(/^(http:\/\/kokucheese.com\/s)(.*)/);
+  var isSP = !!location.href.match(/^(http:\/\/kokucheese.com\/s)(.*)/);
   var insertHtml = isSP ? registerButtonSP : registerButtonPC;
   $('.register-target').append(insertHtml);
 }
