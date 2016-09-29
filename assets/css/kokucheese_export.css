@@ -1,0 +1,58 @@
+.ui-bar-a {
+  background: #333 !important;
+}
+
+.ui-shadow {
+  box-shadow: none !important;
+}
+
+.ui-corner-top,
+.ui-corner-bottom {
+  border-radius: 0 !important;
+}
+
+.ui-hover-button-d {
+  background: #ccc !important;
+}
+
+.ui-bar-b {
+  background: #555 !important;
+}
+
+.ui-btn-corner-all {
+  border-radius: 0 !important;
+}
+
+.ui-btn-up-a,
+.ui-btn-hover-a {
+  border: none !important;
+  background-image: none !important;
+}
+
+.ui-btn-up-d {
+  background: #fff !important;
+}
+
+.ui-btn-hover-d {
+  background: #f2f2f2 !important;
+}
+
+.ui-bar-c {
+  background: #eaeaea !important;
+}
+
+.ui-btn-up-c {
+  background: #f2f2f2 !important;
+}
+
+.ui-btn-hover-c {
+  background: #fff !important;
+}
+
+.ui-block-a {
+  width: 100% !important;
+}
+
+.ui-content {
+  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/symphony.png) !important;
+}
