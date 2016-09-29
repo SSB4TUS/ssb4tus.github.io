@@ -58,8 +58,6 @@
 }
 
 .register-button {
-  position: relative;
-  z-index: 2;
   background-color: #333;
   border: 2px solid #333;
   color: #fff;

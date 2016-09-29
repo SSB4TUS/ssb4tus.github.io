@@ -13,7 +13,8 @@ var registerButtonSP = '<a href="https://ssl.kokucheese.com/event/entry/429832/"
 
 function jQueryMain() {
   $removeTarget.remove();
-  var isSP = !!location.href.match(/^(http:\/\/kokucheese.com\/s)(.*)/);
+  var isSP = true;
+  // !!location.href.match(/^(http:\/\/kokucheese.com\/s)(.*)/);
   var insertHtml = isSP ? registerButtonSP : registerButtonPC;
   $('.register-target').append(insertHtml);
 }
